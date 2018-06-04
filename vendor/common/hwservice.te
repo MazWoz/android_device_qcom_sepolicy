@@ -58,4 +58,5 @@ type hal_pasrmanager_hwservice, hwservice_manager_type;
 type hal_wifilearner_hwservice, hwservice_manager_type;
 
 allow hwservicemanager init:dir search;
+allow hwservicemanager proc:dir search;
 

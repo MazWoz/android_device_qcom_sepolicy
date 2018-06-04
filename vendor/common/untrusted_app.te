@@ -45,5 +45,7 @@ allow untrusted_app camera_prop:file open;
 allow untrusted_app camera_prop:file getattr;
 
 allow untrusted_app qti_debugfs:dir search;
+allow untrusted_app proc:dir search;
+allow untrusted_app debugfs:dir search;
 
 
