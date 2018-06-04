@@ -26,3 +26,4 @@
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 type hal_atfwd_hwservice, coredomain_hwservice, hwservice_manager_type;
+type hal_perf_hwservice, hwservice_manager_type;

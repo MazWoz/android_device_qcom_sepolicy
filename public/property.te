@@ -31,3 +31,5 @@ type persist_khung_prop, property_type;
 # which is going to be working from system
 type vendor_bt_prop, property_type;
 type qemu_hw_mainkeys, property_type;
+
+type cnd_vendor_prop, property_type;

@@ -1,9 +1,6 @@
 # Default type for anything under /firmware.
 type firmware_file, file_type, contextmount_type, vendor_file_type;
 
-# All files under /vendor/firmware
-type vendor_firmware_file, vendor_file_type, file_type;
-
 #Define the qmux socket type
 type qmuxd_socket, file_type;
 
@@ -277,10 +274,6 @@ type sysfs_laser, fs_type, sysfs_type;
 # QDMA data files
 type vendor_qdma_data_file, file_type, data_file_type;
 type qdma_socket, file_type;
-
-# path to debugfs use this whic should be only used
-# in debug builds
-type qti_debugfs, fs_type, debugfs_type;
 
 # vendor radio files
 type vendor_radio_data_file, file_type, data_file_type, core_data_file_type;

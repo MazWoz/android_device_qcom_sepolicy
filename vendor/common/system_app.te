@@ -205,3 +205,6 @@ hal_client_domain(system_app, hal_soter);
 get_prop(system_app, vendor_radio_prop)
 
 allow system_app fs_bpf:dir search;
+
+allow system_app cnd_vendor_prop:file open;
+

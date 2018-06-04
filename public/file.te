@@ -26,3 +26,11 @@
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 type dpmtcm_socket, file_type, coredomain_socket, mlstrustedobject;
+
+
+# path to debugfs use this whic should be only used
+# in debug builds
+type qti_debugfs, fs_type, debugfs_type;
+
+# All files under /vendor/firmware
+type vendor_firmware_file, vendor_file_type, file_type;

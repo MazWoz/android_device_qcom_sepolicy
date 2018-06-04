@@ -64,4 +64,7 @@ allow init mnt_vendor_file:lnk_file r_file_perms;
 allow init netutils_wrapper_exec:file { open read };
 allow init qti-testscripts:process transition;
 allow init socket_device:sock_file setattr;
+allow init netutils_wrapper_exec:file getattr;
+allow init property_socket:sock_file write;
+allow init vendor_toolbox_exec:file execute_no_trans;
 
