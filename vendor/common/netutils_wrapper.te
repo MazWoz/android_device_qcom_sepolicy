@@ -27,3 +27,7 @@
 
 dontaudit netutils_wrapper self:capability sys_module;
 dontaudit netutils_wrapper system_file:dir write;
+
+allow netutils_wrapper diag_device:chr_file { read write };
+allow netutils_wrapper self:capability sys_admin;
+
